@@ -15,7 +15,7 @@ function SelectedCity() {
       {showSelect.map((i, index) => (
         <p
           onClick={() => handleRemoveCity(index)}
-          className="bg-slate-500 p-2 text-white rounded-lg hover:bg-slate-300 hover:text-black cursor-pointer "
+          className="bg-slate-500 p-1 text-[15px] text-white rounded-lg hover:bg-slate-400 hover:text-black cursor-pointer "
           key={index}
         >
           {i}
