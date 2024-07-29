@@ -34,7 +34,7 @@ export const citiesSlice = createSlice({
     },
 
     removeCity(state, action: PayloadAction<number>) {
-      state.selectCity.splice(action.payload, 1); // Assuming you want to remove by index
+      state.selectCity.splice(action.payload, 1); 
     },
   },
 });
